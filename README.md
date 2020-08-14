@@ -11,7 +11,7 @@ Forgive me this time for the code without comments.
 
 
 ## Driver
-Please copy into console application into Main.
+Please copy the following snippet into console application into Main.
 ```
 using (Maze maze = new Maze())
 {
