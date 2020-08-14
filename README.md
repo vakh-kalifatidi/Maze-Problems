@@ -3,7 +3,8 @@ Solving problems in logical matrix (binary rectangular matrix).
 
 # Simplify the maze with walled up cells that can be ignored when looking for a path from start to exit.
 
-logic that I posted can be used to solve the problem of finding a path from start to exit while minimizing calculation time.
+logic that I posted can be used to solve the problem of finding a path from start to exit while minimizing calculation time. 
+As a result of simplifying the maze, we can build a graph with drastically reduced count of nodes and edges, and we can even apply heavy algorithms like DFS.
 
 ### Today I will only post the code in C# that walled up the cells
 
