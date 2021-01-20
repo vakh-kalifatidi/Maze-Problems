@@ -15,7 +15,8 @@ Please note I am not posting a code that is looking for an exit from a maze.
 Forgive me this time for the code without comments.
 
 
-## Driver
+## Driver 
+Please mark the starting cell as “s” and the exitcell as “f”, or use “LoadMaze” or do whatever is convenient for you by updating the Maze class.
 ```
 using (Maze maze = new Maze())
 {
