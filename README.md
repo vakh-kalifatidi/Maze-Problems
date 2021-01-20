@@ -1,18 +1,21 @@
 # Maze-Problems
 Solving problems in logical matrix (binary rectangular matrix).
 
-# Simplify the maze with walled up cells that can be ignored when looking for a path from start to exit.
+# Simplify the maze by walled up cells that can be ignored when looking for a path from start to exit.
 
-logic that I posted can be used to solve the problem of finding a path from start to exit while minimizing calculation time. 
-As a result of simplifying the maze, we can build a graph with drastically reduced count of nodes and edges, and we can even apply heavy algorithms like DFS.
+The logic I posted can be used to solve the problem of finding a path from start to exit while minimizing computation time.
+This is achieved by significantly reducing the number of cells accepted for consideration. Let's call this simplification.
+This simplification allows you to build a graph with a very limited number of nodes and edges. And this makes it easy to apply heavy algorithms such as DFS.
+Run the code and you will be pleasantly surprised.
+If anyone is familiar with such an algorithm, I would be grateful for the reference.
+Please note I am not posting a code that is looking for an exit from a maze.
 
-### Today I will only post the code in C# that walled up the cells
+### The code contains logic for walled cells, which can be ignored when looking for an exit from the maze.
 
 Forgive me this time for the code without comments.
 
 
 ## Driver
-Please copy the following snippet into console application into Main.
 ```
 using (Maze maze = new Maze())
 {
